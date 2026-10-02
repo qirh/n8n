@@ -165,6 +165,9 @@ paths:
       $ref: ./handlers/settings/spec/paths/getLdapSync.generated.yml
     post:
       $ref: ./handlers/settings/spec/paths/runLdapSync.generated.yml
+  /n8n-packages/import:
+    post:
+      $ref: ./handlers/n8n-packages/spec/paths/importPackage.generated.yml
   /node-type-policies/instance:
     get:
       $ref: ./handlers/node-type-policies/spec/paths/getNodeTypeInstancePolicy.generated.yml
